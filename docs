@@ -1,0 +1,21 @@
+# Multiuser Chat Server
+
+This project is a simple multiuser chat server implemented in Python using socket connections. It allows multiple clients to connect simultaneously and exchange messages in a chat room-like environment.
+
+## Features
+
+- **Multiple Users**: The server supports multiple clients connecting simultaneously.
+- **Basic Authentication**: Clients can login with a username, and their messages are displayed along with their usernames.
+- **Broadcast Messaging**: Messages sent by one user are broadcasted to all other connected users.
+- **Simple Client Interface**: Included is a basic Python client for users to connect and interact with the server.
+
+## Usage
+
+1. Start the server by running the `chat_server.py` script.
+2. Users can connect to the server using the `chat_client.py` script and enter their desired username.
+3. Once connected, users can send messages which will be displayed in the server console and broadcasted to all other connected users.
+
+## Requirements
+
+- Python 3.x
+
